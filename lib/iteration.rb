@@ -20,7 +20,7 @@ def find_greater_pair(src)
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
   array = []
-  counter = o
+  counter = 0
   while counter < src.length
     array.push(src[counter].max)
     counter += 1
